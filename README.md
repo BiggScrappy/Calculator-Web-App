@@ -28,5 +28,42 @@ A responsive and interactive web-based calculator built using **HTML**, **CSS**,
 
 ---
 
+## 📁 Project Structure
+
+calculator-app/
+├── index.html # Main HTML file containing the calculator UI
+├── style.css # CSS file for layout and styling
+└── README.md # Project documentation
+
+
+
+
+---
+
+## 🛠️ Technologies Used
+
+- **HTML5** – Semantic structure of the app
+- **CSS3** – Responsive styling with Flexbox and box shadows
+- **JavaScript** – Dynamic input handling and expression evaluation
+
+---
+
+## 🎯 How It Works
+
+- Button inputs append values to the display using `onclick="display.value += 'X'"`.
+- The `=` button evaluates the current expression using `eval()`.
+- AC clears all input, while DE removes the last character.
+
+---
+
+## 🧰 Setup & Usage
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/calculator-app.git
+
+## 📝 License
+This project is licensed under the MIT License.
+
 
 
